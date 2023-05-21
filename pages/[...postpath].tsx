@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					` https://freebuzzs.rf.gd` + encodeURI(path as string)
+					` https://freebuzzs.rf.gd/` + encodeURI(path as string)
 				}`,
 			},
 		};
